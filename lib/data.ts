@@ -1,10 +1,10 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+import { AiOutlineCode } from "react-icons/ai";
+import { FaGamepad } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import corpcommentImg from "@/public/FArbucks.png";
+import rmtdevImg from "@/public/furnid.png";
+import wordanalyticsImg from "@/public/musicPlayer.png";
 
 export const links = [
   {
@@ -35,73 +35,65 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "HIMTI Activist",
+    location: "BInus University",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I work as a Creative and Design HIMTI Activist, where my tasks include creating and designing UI/UX aspects for the HIMTI organization's website, as well as creating aesthetically attractive posters for various events.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "Mar 2022 - Now",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "iCPC",
+    location: "ICPC Foundation,",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "I had the opportunity to participate in an ICPC (International Collegiate Programming Contest) competition, where teams of university students solve intricate algorithmic problems under a time constraint.",
+    icon: React.createElement(AiOutlineCode),
+    date: "Nov 2022",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Compfest",
+    location: "Universitas Indonesia",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I had the opportunity to participate in Compfest, an IT competition with various sub-categories, and I chose to compete in the game development segment. During the event, I successfully created a captivating 2D pixel ninja game, but unfortunately I did not win in the competition.",
+    icon: React.createElement(FaGamepad),
+    date: "Jul 2023 - Sep 2023",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "FArbucks",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "I made this project during the second semester of college, I created a website that provides information about coffee.",
+    tags: ["HTML", "CSS", "JavaScript"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "rmtDev",
+    title: "FURNID",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "An e-commerce website that displays various home furniture, created when I was in my 3rd semester at college.",
+    tags: ["HTML", "CSS", "JavaScript"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Tepen Kiyowo",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Website that displays a music player with an interactive User Interface.",
+    tags: ["HTML", "CSS", "JavaScript"],
     imageUrl: wordanalyticsImg,
   },
 ] as const;
 
 export const skillsData = [
+  "C",
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
+  "React(in progress)",
   "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
+  "SQL",
   "Python",
-  "Django",
-  "Framer Motion",
+  "Java",
+  "JavaFX",
+  "Laravel",
 ] as const;
