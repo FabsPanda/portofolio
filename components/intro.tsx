@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Hubert from "../public/hubert.jpg";
+import Hubert from "../public/hubert2.png";
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
