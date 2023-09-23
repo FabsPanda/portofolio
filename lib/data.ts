@@ -44,15 +44,15 @@ export const experiencesData = [
   },
   {
     title: "iCPC",
-    location: "ICPC Foundation,",
+    location: "ICPC Foundation",
     description:
-      "I had the opportunity to participate in an ICPC (International Collegiate Programming Contest) competition, where teams of university students solve intricate algorithmic problems under a time constraint.",
+      "I had the opportunity to participate in an ICPC (International Collegiate Programming Contest) competition, where teams of university students solve intricate algorithmic problems under a time constraint. During the competition, I am proud to say that our team successfully solved 5 out of the 10 challenging problems presented to us, showcasing our problem-solving skills and determination in a highly competitive environment.",
     icon: React.createElement(AiOutlineCode),
     date: "Nov 2022",
   },
   {
     title: "Compfest",
-    location: "Universitas Indonesia",
+    location: "University of Indonesia",
     description:
       "I had the opportunity to participate in Compfest, an IT competition with various sub-categories, and I chose to compete in the game development segment. During the event, I successfully created a captivating 2D pixel ninja game, but unfortunately I did not win in the competition.",
     icon: React.createElement(FaGamepad),
