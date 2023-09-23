@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "iCPC",
     location: "ICPC Foundation",
     description:
-      "I had the opportunity to participate in an ICPC (International Collegiate Programming Contest) competition, where teams of university students solve intricate algorithmic problems under a time constraint. During the competition, I am proud to say that our team successfully solved 5 out of the 10 challenging problems presented to us, showcasing our problem-solving skills and determination in a highly competitive environment.",
+      "I had the opportunity to participate in an ICPC competition, where teams of university students solve intricate algorithmic problems under a time constraint. During the competition, I am proud to say that our team successfully solved 5 out of the 10 challenging problems presented to us.",
     icon: React.createElement(AiOutlineCode),
     date: "Nov 2022",
   },
