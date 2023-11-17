@@ -97,4 +97,5 @@ export const skillsData = [
   "Java",
   "JavaFX",
   "Laravel",
+  "ThreeJS"
 ] as const;
